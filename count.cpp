@@ -8,5 +8,5 @@ int count(int array[], int n) {
             total ++; // Add the even element to the total sum
         }
     }
-    return 3; // Return the total sum of even numbers
+    return total; // Return the total sum of even numbers
 }
