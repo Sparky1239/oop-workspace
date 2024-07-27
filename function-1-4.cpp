@@ -1,4 +1,4 @@
-int two_array_sum(int array_1[],int array_2[], int n) {
+int sum_two_arrays(int array_1[],int array_2[], int n) {
     int total = 0; 
     if (n<1){
         return 0;

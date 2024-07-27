@@ -1,4 +1,4 @@
-double sum_even(int array[], int n) {
+double sum_even(double array[], int n) {
     double even_total = 0;
     if (n<=1){
         return 0;
