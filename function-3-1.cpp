@@ -1,6 +1,9 @@
 bool is_fanarray(int array[], int n) {
     bool is_fanarray = true; 
     int half_n = 0;
+    if (n<1){
+        return false;
+    }
     if (n % 2 == 0){
         half_n = n/2;
     }

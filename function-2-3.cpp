@@ -1,6 +1,6 @@
 #include <iostream>
 
-void twos_fives_nines(int array[], int n) {
+void two_five_nine(int array[], int n) {
     int twos = 0;
     int fives = 0;
     int nines = 0; 
