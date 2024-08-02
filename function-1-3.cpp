@@ -10,8 +10,8 @@ void count_digits(int array[4][4]) {
             }
         }
     }
-    for (int i=0; i<10; i++){
-        cout << i<< ":" << count[i] << ";";
+    for (int k=0; k<10; k++){
+        cout << k<< ":" << count[k] << ";";
 
     }
     cout << "\n";
