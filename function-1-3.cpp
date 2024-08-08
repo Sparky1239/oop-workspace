@@ -5,7 +5,5 @@ double* duplicateArray(double* array, int size){
     for (int i=0; i<size; i++){
         copy[i] = array[i];
     }
-    for (int i=0; i<size; i++){
-        cout << copy[i] << "\n";
-    }
+    return array;
 }
