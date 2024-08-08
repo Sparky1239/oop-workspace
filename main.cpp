@@ -2,20 +2,20 @@
 #include <iostream>
 using namespace std;
 
-extern void changeValue(double*);
+extern void printArray(double*, int);
 
 
 int main(){
     double a = 5.5;
-    double* ptra = &a;
+    
+    double array[3] = {5.5, 1.1, 2.2} ; 
+    
 
 
-    cout << a << "\n" ;
 
+    printArray(array, 3);
 
-    changeValue(ptra);
-
-    cout << a << "\n" ;
+   
     
     return 0;
 }
