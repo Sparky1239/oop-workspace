@@ -1,8 +1,21 @@
 #include "workshop.h"
+#include <iostream>
+using namespace std;
 
-extern void pointer_char_double();
+extern void changeValue(double*);
+
 
 int main(){
-pointer_char_double();
-return 0;
+    double a = 5.5;
+    double* ptra = &a;
+
+
+    cout << a << "\n" ;
+
+
+    changeValue(ptra);
+
+    cout << a << "\n" ;
+    
+    return 0;
 }
