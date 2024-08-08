@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 double* duplicateArray(double* array, int size){
-    double copy[size];
+    double* copy[size];
     for (int i=0; i<size; i++){
-        copy[i] = array[i];
+        copy[i] = &array[i];
     }
-    double* ptr = copy;
-    return ptr;
+    
+    return *copy;
 }
