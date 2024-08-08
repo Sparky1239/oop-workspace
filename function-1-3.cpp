@@ -5,5 +5,6 @@ double* duplicateArray(double* array, int size){
     for (int i=0; i<size; i++){
         copy[i] = array[i];
     }
-    return array;
+    double* ptr = copy;
+    return ptr;
 }
