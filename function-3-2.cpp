@@ -3,9 +3,9 @@ using namespace std;
 
 
 
-int *readNumbers(){
-    int* numbers = new int[10];
-    for (int i=0; i<10; i++){
+int *readNumbers(int length){
+    int* numbers = new int[length];
+    for (int i=0; i<length; i++){
         cin >> numbers[i];
     }
     return numbers;
