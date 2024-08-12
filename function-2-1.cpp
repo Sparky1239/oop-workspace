@@ -33,7 +33,9 @@ void hexDigits(int *numbers,int length){
                 case 14:
                 hexadecimal = 'E';
                 break;
+                case 15:
                 hexadecimal = 'F';
+                break;
                 default:
                 hexadecimal = numbers[i] + '0';
                 break;
