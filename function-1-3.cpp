@@ -6,5 +6,5 @@ double* duplicateArray(double* array, int size){
         copy[i] = &array[i];
     }
     
-    return *copy;
+    return copy;
 }
