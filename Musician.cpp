@@ -1,9 +1,16 @@
 #include "Musician.h"
 
-Musician::Musician() ...
+//default constructor
+Musician::Musician() : instrument("null"), experience(0) {}
 
-Musician::Musician(std::string instrument, int experience) ...
+//constructor with parameters
+Musician::Musician(std::string instrument, int experience) : instrument(instrument), experience(experience) {}
 
-std::string Musician::get_instrument()...
 
-int Musician::get_experience() ...
+std::string Musician::get_instrument(){
+    return instrument;
+}
+
+int Musician::get_experience() {
+    return experience;
+}
