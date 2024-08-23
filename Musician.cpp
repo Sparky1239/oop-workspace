@@ -1,6 +1,6 @@
 #include "Musician.h"
 
-Musician::Musician() 
+Musician::Musician() : (string instrument,)
 
 Musician::Musician(std::string instrument, int experience) ...
 
