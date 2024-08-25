@@ -1,11 +1,16 @@
 
-
+#include "vehicle.h"
 #include <string>
-#include 'vehicle.h'
+#include <ctime>
+
 
 
     //Constructor
-    Vehicle::Vehicle(int ID) : 
+    Vehicle::Vehicle(int ID) : ID(ID), timeOfEntry(time(0)){} 
 
     //Get ID
-    int getID();
+    int Vehicle::getID(){
+        return ID;
+
+    
+    }
