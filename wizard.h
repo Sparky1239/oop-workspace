@@ -2,6 +2,7 @@
 #define WIZARD_H
 
 #include <string>
+#include "player.h"
 
 class Wizard : public Player{
 private:

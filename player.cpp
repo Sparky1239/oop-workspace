@@ -13,6 +13,7 @@
     //reduces the player's health by the given amount
     void Player::takeDamage(int damage) {
         health -= damage;
+        std::cout << name << " takes " << damage << " damage. Remaining health: " << health << "\n";
     }
 
     //get and setters

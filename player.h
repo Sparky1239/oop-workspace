@@ -4,7 +4,7 @@
 #include <string>
 
 class Player {
-private:
+protected:
     std::string name;
     int health;
     int damage;

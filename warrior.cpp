@@ -18,7 +18,8 @@
 
     //cast spell that does damage based on mana
     void Warrior::swingWeapon(Player* opponent){
-        opponent->takeDamage(getDamage());
+        opponent->takeDamage(damage);
+        std::cout << name << " swings their " << weapon << " at " << opponent->getName() << "!\n";
     }
 
     

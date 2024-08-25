@@ -19,6 +19,7 @@
     //cast spell that does damage based on mana
     void Wizard::castSpell(Player* opponent){
         opponent->takeDamage(mana);
+        std::cout << name << " casts a spell on " << opponent->getName() << " for " << damage << " damage.\n";
     }
 
     
