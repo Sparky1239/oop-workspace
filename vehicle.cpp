@@ -11,6 +11,8 @@
     //Get ID
     int Vehicle::getID(){
         return ID;
+    }
 
-    
+    int Vehicle::getNSParkingDuration(){
+        return difftime(time(0), timeOfEntry);
     }

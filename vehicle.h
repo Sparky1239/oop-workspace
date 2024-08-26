@@ -18,6 +18,9 @@ public:
     //Get ID
     int getID();
 
+    //Get non specific parking duration
+    int getNSParkingDuration();
+
 
 
 
