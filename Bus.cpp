@@ -1,5 +1,5 @@
-#include "vehicle.h"
-#include "bus.h"
+#include "Vehicle.h"
+#include "Bus.h"
 #include <string>
 #include <ctime>
 

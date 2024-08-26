@@ -1,11 +1,11 @@
-#ifndef MOTORBIKE_H
-#define MOTORBIKE_H
+#ifndef CAR_H
+#define CAR_H
 
+#include "Vehicle.h"
 #include <ctime>
 #include <string>
-#include "vehicle.h"
 
-class Motorbike : public Vehicle {
+class Car : public Vehicle {
 private:
 
 public:
