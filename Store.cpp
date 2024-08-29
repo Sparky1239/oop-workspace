@@ -38,7 +38,7 @@ StockItem *Store::get_Stock_List(){
 // otherwise returns false
 bool Store::add_Stock(StockItem new_stock){
     if (capacity == current_stock){
-        return false
+        return false;
     }
     stock[current_stock] = new_stock;
     current_stock++;
