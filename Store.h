@@ -7,7 +7,7 @@ class Store
 {
 private:
 
-StockItem *StockItem;
+StockItem *stock;
 int capacity;
 int current_stock;
 
