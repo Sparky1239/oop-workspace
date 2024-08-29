@@ -1,11 +1,12 @@
 #include "StockItem.h"
 #include "Store.h"
-#include <string>
-#include <iostream>
 
-Store::Store() : StockItem(nullptr), 
 
-Store(int capacity); 
+Store::Store() : StockItem(nullptr), capacity(0), current_stock(0) {}
+
+Store::Store(int capacity): capacity(capacity), current_stock(0) {
+    stock = new StockItem[capacity];
+}
 
 // returns the number items currently stocked
 // note that if more than one of the same item is in stock they are *all* counted
