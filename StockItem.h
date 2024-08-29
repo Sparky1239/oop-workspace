@@ -1,5 +1,5 @@
-#ifndef STOCKITEM.H
-#define STOCKITEM.H
+#ifndef STOCKITEM_H
+#define STOCKITEM_H
 #include <string>
 
 class StockItem
