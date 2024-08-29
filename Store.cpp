@@ -21,7 +21,7 @@ int Store::get_Total_Stock_Count(){
 int Store::get_Stock_Count(int item_code){
     int count = 0;
     for (int i = 0; i < current_stock; i++){
-        if (item_code = stock[i].get_item_code()){
+        if (item_code == stock[i].get_item_code()){
             count++;
         }
     }
