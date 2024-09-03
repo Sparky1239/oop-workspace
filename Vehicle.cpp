@@ -6,7 +6,7 @@
 
 
     //Constructor
-    Vehicle::Vehicle(int ID) : ID(ID), timeOfEntry(time(0)){} 
+    Vehicle::Vehicle(int ID) : ID(ID), timeOfEntry(time(nullptr)){} 
 
     //Get ID
     int Vehicle::getID(){
@@ -14,5 +14,5 @@
     }
 
     int Vehicle::getNSParkingDuration(){
-        return difftime(time(0), timeOfEntry);
+        return difftime(time(nullptr), timeOfEntry);
     }
