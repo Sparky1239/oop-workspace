@@ -27,7 +27,10 @@
 
     //refuel
     void Ford::refuel(int litres){
-        litresOfFuel =+ litres;
+        litresOfFuel += litres;
+        if (litresOfFuel > 60){
+            litresOfFuel = 60;
+        }
     }
 
     //drive tesla 
