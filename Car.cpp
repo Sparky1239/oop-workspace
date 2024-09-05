@@ -7,20 +7,20 @@
     Car::Car(int price) : price(price), emissions(0) {}
 
     //returns price
-    int Car::get_Price() {
+    int Car::get_price() {
         return price;
     }
     //set price
-    void Car::set_Price(int newPrice) {
+    void Car::set_price(int newPrice) {
         this->price = newPrice;
     }
 
     //returns emmisions
-    int Car::get_Emissions(){
+    int Car::get_emissions(){
         return emissions;
     }
     //sets emmisions
-    void Car::set_Emissions(int newEmissions){
+    void Car::set_emissions(int newEmissions){
         this->emissions = emissions;
     }
 

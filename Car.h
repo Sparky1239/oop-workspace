@@ -14,14 +14,14 @@ public:
     Car(int price);
 
     //returns price
-    int get_Price();
+    int get_price();
     //set price
-    void set_Price(int newPrice);
+    void set_price(int newPrice);
 
     //returns emmisions
-    int get_Emissions();
+    int get_emissions();
     //sets emmisions
-    void set_Emissions(int newEmissions);
+    void set_emissions(int newEmissions);
 
     //drives a distance set emmisions to 20* kms
     void drive(int kms);
