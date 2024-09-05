@@ -21,7 +21,7 @@
     }
     //sets emmisions
     void Car::set_emissions(int newEmissions){
-        this->emissions = emissions;
+        this->emissions = newEmissions;
     }
 
     //drives a distance adds emmisions to 20* kms
