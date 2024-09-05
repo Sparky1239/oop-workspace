@@ -37,10 +37,10 @@
     void Ford::drive(int kms) {
             if (kms < 5 * litresOfFuel){
             this->litresOfFuel -= 0.2 * kms;
-            this->emissions += 20 * kms;
+            this->emissions += 234 * kms;
         }
         else{
-            this->emissions += litresOfFuel * 74 * 5;
+            this->emissions += litresOfFuel * 234 * 5;
             this->litresOfFuel = 0;
         }
     }
