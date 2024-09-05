@@ -24,7 +24,7 @@ public:
     void set_emissions(int newEmissions);
 
     //drives a distance set emmisions to 20* kms
-    void drive(int kms);
+    virtual void drive(int kms);
 
 };
 
