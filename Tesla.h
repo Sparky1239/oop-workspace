@@ -16,7 +16,7 @@ public:
     //return charge of battery
     float get_batteryPercentage();
     //set charge of battery
-    void set_batteryPercentage(float batteryPercentage);
+    void set_batteryPercentage(float newBatteryPercentage);
 
     //return model
     char get_model();

@@ -11,8 +11,8 @@
         return batteryPercentage;
     }
     //set charge of battery
-    void Tesla::set_batteryPercentage(float batteryPercentage){
-        this->batteryPercentage = batteryPercentage;
+    void Tesla::set_batteryPercentage(float newBatteryPercentage){
+        this->batteryPercentage = newBatteryPercentage;
     }
 
     //return model
@@ -37,7 +37,7 @@
     void Tesla::drive(int kms){
         if (kms < 0.2*batteryPercentage){
             this->batteryPercentage -= 0.2 * kms;
-            this->emissions += 74 * kms;
+            this->emissions += 0.74 * kms;
         }
         else{
             this->emissions += batteryPercentage * 74 * 5;

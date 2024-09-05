@@ -7,6 +7,6 @@ using namespace std;
 int main(){
     Car jenny = Tesla('E', 6000);
     jenny.drive(50);
-    cout << "lola costs $" << jenny.get_price() << "\nit has produced " << jenny.get_emissions() << "kg of CO2 emissions \n";
+    cout << "jenny costs $" << jenny.get_price() << "\nit has produced " << jenny.get_emissions() << "kg of CO2 emissions \n";
 
 }
