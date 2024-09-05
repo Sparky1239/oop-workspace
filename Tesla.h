@@ -28,7 +28,7 @@ public:
     void chargeBattery(int mins);
 
     //drive
-    void drive(int kms);
+    void drive(int kms) override;
 
 };
 
