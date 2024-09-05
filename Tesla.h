@@ -27,7 +27,7 @@ public:
     //charges battery
     void chargeBattery(int mins);
 
-    //drive
+    //drive tesla 
     void drive(int kms) override;
 
 };

@@ -35,7 +35,7 @@
 
     //drive
     void Tesla::drive(int kms) {
-        if (kms < 0.2*batteryPercentage){
+        if (kms < 5 * batteryPercentage){
             this->batteryPercentage -= 0.2 * kms;
             this->emissions += 0.74 * kms;
         }
