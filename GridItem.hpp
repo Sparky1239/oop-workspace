@@ -4,8 +4,7 @@
 #include <iostream>
 #include <tuple>
 
-class GridItem
-{
+class GridItem {
 protected:
     std::pair<int, int> position;
     int width; 
