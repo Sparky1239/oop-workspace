@@ -4,6 +4,8 @@
 #include "GridItem.hpp"
 #include "Robot.hpp"
 
+enum class InteractableType {Goal, Obstacle};
+
 class Interactable : public GridItem{
 public:    
     //constructor
@@ -29,6 +31,5 @@ public:
 
 };
 
-enum class InteractableType {Goal, Obstacle};
 #endif
 
