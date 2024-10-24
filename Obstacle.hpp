@@ -6,11 +6,11 @@
 
 class Obstacle : public Interactable {
 private:
-
+    InteractableType type;
 public:
     //constructor
     Obstacle(int x, int y, int width, int height)
-        :Interactable(x,y,width,height) {}
+        :Interactable(x,y,width,height), type(InteractableType::OBSTACLE) {}
     //Interact
     bool interact(Robot* player) override{
         if(Helper::euclideanDistance(position, player->getCoordinates()) == 0){

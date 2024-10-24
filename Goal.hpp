@@ -10,7 +10,7 @@ private:
 public:
     //constructor
     Goal (int width, int height) :
-    Interactable(width-1, height-1, width, height), type(InteractableType::Goal) {}
+    Interactable(width-1, height-1, width, height), type(InteractableType::GOAL) {}
     //interact
     bool interact(Robot* player) override{
         if (Helper::euclideanDistance(position, player->getCoordinates()) == 0){
