@@ -24,7 +24,7 @@ public:
         }
     //set coordinates
     void setCoordinates(int x, int y) {
-        position = std::pair(x, y);
+        position = std::pair<int, int>(x, y);
     }
     //get Coordiantes
     std::pair<int,int> getCoordinates() {
