@@ -8,8 +8,8 @@ class GridItem
 {
 protected:
     std::pair<int, int> position;
+    int width; 
     int height;
-    int width;
     int ActiveGridItemCount = 0;
 public:
     //constructor
